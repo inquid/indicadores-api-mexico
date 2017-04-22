@@ -2,6 +2,7 @@
 
 
 Esta sencilla librería regresa los indicadores más relevantes de la economía mexicana.
+
 Para devolver el IPC se utiliza Google Finance el cual puede devolver también información de múltiples bolsas de valores del mundo.
 # Usage - Uso
 ```PHP
