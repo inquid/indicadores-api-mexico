@@ -14,13 +14,13 @@ Para devolver el IPC se utiliza Google Finance el cual puede devolver también i
 </head>
 <body>
 <?php
-$banxico = new IndicadoresMexico();
+$indicadores = new IndicadoresMexico();
 echo "<br>";
-echo "Cetes a 28 días".$banxico->getTasaBanxico("SF60633");
+echo "Cetes a 28 días".$indicadores->getTasaBanxico("SF60633");
 echo "<br>";
-echo "UDIS de BANXICO".$banxico->getUdisBanxico();
+echo "UDIS de BANXICO".$indicadores->getUdisBanxico();
 echo "<br>";
-echo "Acción de Apple: ".$banxico->getGoogleValues("NASDAQ:AAPL");
+echo "Acción de Apple: ".$indicadores->getGoogleValues("NASDAQ:AAPL");
 echo "<br>";
 ?>
 </body>
