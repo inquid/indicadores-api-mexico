@@ -1,0 +1,21 @@
+{
+    "name": "inquid/yii2-indicadores-mexico",
+    "description": "Indicadores Económicos y datos fiscales para México",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","mexico","indicadores","economia","sat","hacienda","banco","gobierno"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inquid",
+            "email": "contact@inquid.co"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "inquid\\indicadoresmexico\\": ""
+        }
+    }
+}
