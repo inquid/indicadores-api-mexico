@@ -1,5 +1,10 @@
 <?php
 namespace inquid\indicadoresmexico;
+
+use SoapClient;
+use DOMDocument;
+use DOMXPath;
+
 /**
  * Class IndicadoresMexico
  * @author Inquid
