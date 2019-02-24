@@ -1,5 +1,5 @@
 <?php
-
+namespace inquid\indicadoresmexico;
 /**
  * Class IndicadoresMexico
  * @author Inquid
@@ -14,11 +14,17 @@ class IndicadoresMexico
     private $_client;
     private $_debug = false;
 
+    /**
+    *
+    */
     public static function actionGetInflacion()
     {
         return 4.86;
     }
 
+    /**
+    *
+    */
     public static function actionGetPetroleo()
     {
         return 48.72;
